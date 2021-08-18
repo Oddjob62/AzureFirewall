@@ -1,0 +1,6 @@
+subscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+resourceGroupName = "AzureFirewallRG"
+
+homebaseIPs = ["xx.xx.xx.xx/32"]
+

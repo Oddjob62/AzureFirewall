@@ -1,0 +1,27 @@
+---  
+application_rule_collections:
+  app_rule_collection1:
+    name: "app_rule_collection1"
+    priority: "500"
+    actiontype: "Deny"
+    rules:
+    - name: "app_rule_collection1_rule1"
+      protocols:
+      - protocolType: "Http"
+        port: "80"
+      - protocolType: "Https"
+        port: "443"
+      sourceAddresses = ["10.0.0.1"]
+      targetFqdns = ["*.microsoft.com"]
+      fqdnTags = []
+      sourceIpGroups = []
+    - name: "app_rule_collection1_rule2"
+      protocols:
+      - protocolType: "Http"
+        port: "80"
+      - protocolType: "Https"
+        port: "443"
+      sourceAddresses = ["10.0.0.2"]
+      targetFqdns = ["*.microsoft.com"]
+      fqdnTags = []
+      sourceIpGroups = []
