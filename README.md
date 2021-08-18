@@ -28,11 +28,12 @@ See [here](https://docs.microsoft.com/en-us/azure/developer/terraform/get-starte
 ### Executing program
 
 Rename `terraform.tfvars.template` to `terraform.tfvars`\
+\
 Make the required changes for your environment\
 \
 Run `terraform init`\
 Run `terrafrom plan`\
-Run `terraform apply`\
+Run `terraform apply`
 
 ## Help
 
