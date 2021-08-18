@@ -2,5 +2,7 @@ subscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 
 resourceGroupName = "AzureFirewallRG"
 
+# Trusted IP addresses used to connect to the environment
+# These will be added to the firewall to allow RDP/SSH to the test VMs
 homebaseIPs = ["xx.xx.xx.xx/32"]
 
