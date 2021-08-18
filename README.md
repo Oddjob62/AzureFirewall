@@ -1,10 +1,16 @@
 # Azure Firewall with Terraform
 
-Building a test environment in azure to try out Azure firewall.
+Building a test environment to try out Azure firewall.
 
 ## Description
 
 This code was written to create the environement described in [John Savill](https://twitter.com/NTFAQGuy)'s excellent video tutorial [Azure Firewall Deep Dive](https://www.youtube.com/watch?v=JiUerkqyW0g)
+
+<p align="center">
+<img src="./images/AzureFirewall.png" width="600">
+</p>
+
+For simplicity this deployment is in a single Resource Group in a single Region.
 
 ## Getting Started
 
@@ -24,9 +30,9 @@ See [here](https://docs.microsoft.com/en-us/azure/developer/terraform/get-starte
 Rename `terraform.tfvars.template` to `terraform.tfvars`\
 Make the required changes for your environment\
 \
-Run `terraform init`
-Run `terrafrom plan`
-Run `terraform apply`
+Run `terraform init`\
+Run `terrafrom plan`\
+Run `terraform apply`\
 
 ## Help
 
